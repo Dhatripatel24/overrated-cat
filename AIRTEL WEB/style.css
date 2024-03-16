@@ -1,0 +1,68 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+li a:hover
+{
+    color: red;
+}
+.nav-link
+{
+    margin-top: -5px;
+}
+.tab-pane a
+{
+    color: white;
+    background-color: black;
+    height: 40px; 
+    width: 30%;
+    border: 1px solid black; 
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.tab-pane input
+{
+    height: 40px; 
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+hr
+{
+    margin-top: -10px;
+}
+.right 
+{
+    color: red;
+}
+.nav-link
+{
+    color:rgb(87, 87, 87);
+    margin-top: -1px;
+}
+/* .nav-link:hover
+{
+    font-weight: bold;
+    color: red;
+} */
+.left button
+{
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px ;
+}
+.getapp
+{
+    margin:auto;
+}
+.bannerstep
+{
+    background-image: url('img/conversational-widget-bg-mob.jpeg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}

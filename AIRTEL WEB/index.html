@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css"
+        integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+
+</head>
+
+<body>
+    <!-- header -->
+    <section class="bg-light header">
+        <div class="container  d-flex  justify-content-between align-item-center">
+            <div class="left">
+                <ul class="d-flex list-unstyled">
+                    <li class="p-3"><a href="" class="text-decoration-none" style="color: red; font-weight: bold;">FOR
+                            ME</a></li>
+                    <li class="p-3"><a href="" class="text-decoration-none" style="color: gray; font-weight: bold;">FOR
+                            MY BUSINESS</a></li>
+                    <li class="p-3"><a href="" class="text-decoration-none" style="color: gray; font-weight: bold;">FOR
+                            INVESTORS</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="d-flex list-unstyled dropdown">
+                    <li class="p-3 dropdown">
+                        <button class="btn dropdown-toggle text-danger" type="button" id="menu"
+                            data-bs-toggle="dropdown">
+                            <i class="ri-apps-2-line pe-2"></i>Explore Airtel
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item"><i class="ri-airplay-line"></i>&nbsp;Thanks App</a>
+                            </li>
+                            <li><a href="" class="dropdown-item"><i class="bi bi-alipay"></i>&nbsp;Airtel payments
+                                    Bank</a></li>
+                            <li><a href="" class="dropdown-item"><i class="bi bi-cast"></i>&nbsp;Xstream</a></li>
+                            <li><a href="" class="dropdown-item"><i class="bi bi-dash-square"></i>&nbsp;Wynk</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- navbar -->
+
+    <section>
+        <div class="navbar navbar-expand-lg   ms-5 me-5 pb-4">
+            <div class="container">
+                <img src="https://companieslogo.com/img/orig/BHARTIARTL.NS_BIG-b14bd7aa.png?t=1684403525" alt=""
+                    height="35px" class="navbar-brand" alt="">
+                <button class="btn btn-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#slider"
+                     aria-controls="offcanvasRight"><span><i class="bi bi-list"></i></span></button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown ">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> Airtel Bank</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Pay Bills</a></li>
+                            <li><a href="" class="dropdown-item">View Plan </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu">Prepaid</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Recharge</a></li>
+                            <li><a href="" class="dropdown-item">New Prepaid Seem </a></li>
+                            <li><a href="" class="dropdown-item">View Plans</a></li>
+                            <li><a href="" class="dropdown-item">Internation roaming</a></li>
+                            <li><a href="" class="dropdown-item">Switch Prepaid To Postpaid</a></li>
+                            <li><a href="" class="dropdown-item">Port To Airtek Prepaid</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> post paid</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Pay Bills</a></li>
+                            <li><a href="" class="dropdown-item">Buy New Connection </a></li>
+                            <li><a href="" class="dropdown-item">View Plans</a></li>
+                            <li><a href="" class="dropdown-item">Internation roaming</a></li>
+                            <li><a href="" class="dropdown-item">Switch Prepaid To Postpaid</a></li>
+                            <li><a href="" class="dropdown-item">Port To Airtek </a></li>
+                            <li><a href="" class="dropdown-item">Free Sim Delivery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> Boardband</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Pay Bill Recharge</a></li>
+                            <li><a href="" class="dropdown-item">Buy New Connection </a></li>
+                            <li><a href="" class="dropdown-item">View Plans</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown  ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu">DTH</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Recharge</a></li>
+                            <li><a href="" class="dropdown-item">Buy New DTH Connection</a></li>
+                            <li><a href="" class="dropdown-item">View Plans</a></li>
+                            <li><a href="" class="dropdown-item">Upgrand Box</a></li>
+                            <li><a href="" class="dropdown-item">Buy Second DTH Connection</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown  ps-4 ">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> Bank</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">View Account</a></li>
+                            <li><a href="" class="dropdown-item">Get new Account </a></li>
+                            <li><a href="" class="dropdown-item">Add Money</a></li>
+                            <li><a href="" class="dropdown-item">Know More</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown  ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> Airtel Finaance</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Credit Card</a></li>
+                            <li><a href="" class="dropdown-item">Get Loans </a></li>
+                            <li><a href="" class="dropdown-item">Know More</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ps-4">
+                        <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                            data-bs-target="#menu"> <i class="ri-account-circle-line text-danger"></i>Account</a>
+                        <ul class="dropdown-menu" id="menu">
+                            <li><a href="" class="dropdown-item">Thanks App</a></li>
+                            <li><a href="" class="dropdown-item">Airtel Payment Bank </a></li>
+                            <li><a href="" class="dropdown-item">Xstream</a></li>
+                            <li><a href="" class="dropdown-item">Wynk</a></li>
+                        </ul>
+                    </li>
+                </ul> 
+             </div>
+
+             <div class="offcanvas offcanvas-end" tabindex="-1" id="slider" aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">menu</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown ">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> Airtel Bank</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Pay Bills</a></li>
+                                <li><a href="" class="dropdown-item">View Plan </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu">Prepaid</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Recharge</a></li>
+                                <li><a href="" class="dropdown-item">New Prepaid Seem </a></li>
+                                <li><a href="" class="dropdown-item">View Plans</a></li>
+                                <li><a href="" class="dropdown-item">Internation roaming</a></li>
+                                <li><a href="" class="dropdown-item">Switch Prepaid To Postpaid</a></li>
+                                <li><a href="" class="dropdown-item">Port To Airtek Prepaid</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> post paid</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Pay Bills</a></li>
+                                <li><a href="" class="dropdown-item">Buy New Connection </a></li>
+                                <li><a href="" class="dropdown-item">View Plans</a></li>
+                                <li><a href="" class="dropdown-item">Internation roaming</a></li>
+                                <li><a href="" class="dropdown-item">Switch Prepaid To Postpaid</a></li>
+                                <li><a href="" class="dropdown-item">Port To Airtek </a></li>
+                                <li><a href="" class="dropdown-item">Free Sim Delivery</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> Boardband</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Pay Bill Recharge</a></li>
+                                <li><a href="" class="dropdown-item">Buy New Connection </a></li>
+                                <li><a href="" class="dropdown-item">View Plans</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown  ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu">DTH</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Recharge</a></li>
+                                <li><a href="" class="dropdown-item">Buy New DTH Connection</a></li>
+                                <li><a href="" class="dropdown-item">View Plans</a></li>
+                                <li><a href="" class="dropdown-item">Upgrand Box</a></li>
+                                <li><a href="" class="dropdown-item">Buy Second DTH Connection</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown  ps-4 ">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> Bank</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">View Account</a></li>
+                                <li><a href="" class="dropdown-item">Get new Account </a></li>
+                                <li><a href="" class="dropdown-item">Add Money</a></li>
+                                <li><a href="" class="dropdown-item">Know More</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown  ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> Airtel Finaance</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Credit Card</a></li>
+                                <li><a href="" class="dropdown-item">Get Loans </a></li>
+                                <li><a href="" class="dropdown-item">Know More</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ps-4">
+                            <a href="" class="nav-link btn dropdown-toggle " data-bs-toggle="dropdown"
+                                data-bs-target="#menu"> <i class="ri-account-circle-line text-danger"></i>Account</a>
+                            <ul class="dropdown-menu" id="menu">
+                                <li><a href="" class="dropdown-item">Thanks App</a></li>
+                                <li><a href="" class="dropdown-item">Airtel Payment Bank </a></li>
+                                <li><a href="" class="dropdown-item">Xstream</a></li>
+                                <li><a href="" class="dropdown-item">Wynk</a></li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+    </section>
+
+    
+
+   
+    </div>
+    <hr>
+
+
+    <!-- slider -->
+    <section>
+
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <div class="container-fluid justify-content-between ">
+                <div class="carousel-inner ">
+                    <div class="carousel-item active">
+                        <div class="box1  d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3  ">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-1.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="box2  d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12  ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-2.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="box3  d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12  ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-3.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="box4 d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12  ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-4.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="box5 d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-5.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="box6 d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12  ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-6.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="box7 d-lg-flex d-sm-column">
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="left m-5 p-3">
+                                    <h2 class="title">Wi-Fi like speeds, now on the go.</h2>
+                                    <p class="text">With Airtel 5G Plus. Up to 30x faster</p>
+                                    <button class=" ps-4 pe-4 pt-2 pb-2 bg-dark text-light">KNOW MORE</button>
+
+                                </div>
+                            </div>
+                            <div class="col-6 col-xl-6 col-md-12 col-sm-12 ">
+                                <div class="right ">
+                                    <img src="https://assets.airtel.in/static-assets/home-recast/images/hero-banner-7.png"
+                                        alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon  bg-dark rounded-pill" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-dark rounded-pill" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- buttons -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12">
+                <div class="pay mt-5 text-center">
+                    <h1>Recharge or pay bills</h1>
+                </div>
+
+                <!-- <div class="col-6  m-auto"> -->
+                <div class="nav nav-tabs border-0 justify-content-center mt-5" id="nav-tab">
+                    <button class="nav-link active me-3" id="nav-home-tab" data-bs-toggle="tab"
+                        data-bs-target="#nav-home"
+                        style="border-radius: 50px; border: 1px solid  #ECEDFF;; background-color: #ECEDFF; color: black; "><i
+                            class="bi bi-currency-rupee"></i>&nbsp;prepaid</button>
+                    <button class="nav-link me-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                        style="border-radius: 50px; border: 1px solid  #ECEDFF;; background-color: #ECEDFF; color: black; "><i
+                            class="bi bi-sim"></i>&nbsp;Postpaid</button>
+                    <button class="nav-link me-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                        style="border-radius: 50px; border: 1px solid #ECEDFF;; background-color: #ECEDFF; color: black; "><i
+                            class="bi bi-easel-fill"></i>&nbsp;DTH</button>
+                    <button class="nav-link me-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-about"
+                        style="border-radius: 50px; border: 1px solid #ECEDFF;; background-color: #ECEDFF; color: black; "><i
+                            class="bi bi-router-fill"></i>&nbsp;Fiber</button>
+                    <button class="nav-link me-3" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-more"
+                        style="border-radius: 50px; border: 1px solid #ECEDFF;; background-color: #ECEDFF; color: black; "><i
+                            class="bi bi-crosshair"></i>&nbsp;Airtel Black</button>
+                </div>
+                <!-- </div> -->
+
+                <div class="tab-content" id="nav-tabContent" style="text-align: center; padding-top: 3%;">
+                    <div class="tab-pane fade show active" id="nav-home">
+                        <input type="text" placeholder="Enter mobile number" class="ps-3"><br><br>
+                        <a href="">RECGARGE</a>
+                    </div>
+                    <div class="tab-pane fade " id="nav-profile">
+                        <input type="text" placeholder="Enter mobile number" class="ps-3"><br><br>
+                        <a href="">PAY BILL</a>
+                    </div>
+                    <div class="tab-pane fade" id="nav-contact">
+                        <input type="text" placeholder="Enter mobile number/DTH ID" class="ps-3"><br><br>
+                        <a href="">RECGARGE</a>
+                    </div>
+                    <div class="tab-pane fade" id="nav-about">
+                        <input type="text" placeholder="Enter mobile number/DSL ID" class="ps-3"><br><br>
+                        <a href="">PAY BILLS</a>
+                    </div>
+                    <div class="tab-pane fade" id="nav-more">
+                        <input type="text" placeholder="Enter mobile number" class="ps-3"><br><br>
+                        <a href="">PAY BILL</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- getapp -->
+    <section class="getapp">
+        <div class="bg-danger text-center text-center p-2 mt-5 text-light " style="padding:auto;">Free 2 GB data coupons
+            on select recharges via Thanks app
+            <a href="" class="btn btn-outline-dark rounded-pill p-1  text-decoration-none text-light"
+                style="border:1px solid white;">GET APP</a>
+        </div>
+    </section>
+
+
+    <!-- icons -->
+    <section>
+        <div class="container text-center">
+            <div class="container mt-5">
+                <h1 class="fw-bold text-center">Buy a new connection</h1>
+                <ul class="nav justify-content-between col-xl-8 col-sm-12 m-auto mt-5 col-md-10 col-lg-9">
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark" style="background-color: #E3E5FF;"><i
+                                class="ri-sim-card-2-fill"></i></a>
+                        <p class="text-center">Prepaid</p>
+                    </li>
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark" style="background-color: #E3E5FF;"><i
+                                class="ri-dual-sim-1-fill"></i></a>
+                        <p class="text-center">Postpaid</p>
+                    </li>
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark" style="background-color: #E3E5FF;"><i
+                                class="ri-radar-fill"></i></a>
+                        <p class="text-center">DTH</p>
+                    </li>
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark" style="background-color: #E3E5FF;"><i
+                                class="ri-router-fill"></i></a>
+                        <P class="text-center">Fiber</P>
+                    </li>
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark" style="background-color: #E3E5FF;"><i
+                                class="ri-vip-crown-fill"></i></a>
+                        <P class="text-center">king</P>
+                    </li>
+                    <li><a href="#" class="nav-link rounded-circle fs-3 text-dark "
+                            style="background-color: #E3E5FF;"><i class="ri-camera-lens-fill"></i></a>
+                        <p class="text-center">Xsafe</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- swich to airtel -->
+    <section>
+        <div class="container ">
+
+            <div class="col-8 col-lg-8 col-sm-12  bg-danger justify-content-between d-flex m-auto mt-4 ">
+                <div class="img pt-3 ps-3 pe-sm-2 pt-sm-4"><img src="img/switch-to-airtel-web.png " alt=""
+                        style="width:60px;"></div>
+                <div class="left bg-danger pt-3 ">
+                    <h4 class="title text-light">switch to airtel </h4>
+                    <p class="text-light">Select a plan & order SIM • Get SIM home-delivered</p>
+                </div>
+                <div class="right pe-5 pt-4 ">
+                    <button type="button" class="btn btn-outline-dark rounded-pill   text-light "
+                        style="border:1px solid white;">GET STARTED</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cards -->
+    <section class="bg-light">
+        <h2 class="title text-center mt-4  pt-4">Recommended for you</h1>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-4 col-sm-12 col-lg-6 col-xl-4">
+                        <div class="card" style="width: 20rem;border-radius: 5%;">
+                            <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-1.png"
+                                class="card-img-top" alt="..." style="border-radius:5%;">
+                            <div class="card-body">
+                                <h6 class="card-title text-danger" style="font-weight:bold;">FIBER</h6>
+                                <p class="card-text" style="font-weight:bold;">Enjoy unlimited wi-fi at ₹999</p>
+                                <p class="body-text">Up to 200 Mbps speed, unlimited calls & OTT apps</p>
+                                <a href="#" class="btn btn-dark ">BUY NOW</a>
+                                <a href="" class="text-decoration-none " style="font-weight:bold;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-xl-4 col-lg-6 col-sm-12">
+                        <div class="card" style="width: 20rem;border-radius: 5%;">
+                            <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-2.png"
+                                class="card-img-top" alt="..." style="border-radius:5%;">
+                            <div class="card-body">
+                                <h6 class="card-title text-danger" style="font-weight:bold;">POSTPAID</h6>
+                                <p class="card-text" style="font-weight:bold;">Get a superior network at just ₹499</p>
+                                <p class="body-text">75 GB data with no daily limit & top OTT apps</p>
+                                <a href="#" class="btn btn-dark">BUY NOW</a>
+                                <a href="" class="text-decoration-none" style="font-weight:bold;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4 col-xl-4 col-lg-6 col-sm-12  ">
+                        <div class="card" style="width:20rem;border-radius: 5%;">
+                            <img src="https://assets.airtel.in/static-assets/home-recast/images/recommendations-slide-3.png"
+                                class="card-img-top" alt="..." style="border-radius:5%;">
+                            <div class="card-body">
+                                <h6 class="card-title text-danger" style="font-weight:bold;">PREPAID</h6>
+                                <p class="card-text" style="font-weight:bold;">Enjoy high-speed, seamless network</p>
+                                <p class="body-text">Home delivery of SIM & Quick activation</p>
+                                <a href="#" class="btn btn-dark">BUY NOW</a>
+                                <a href="" class="text-decoration-none" style="font-weight:bold;">LEARN MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+
+    <!-- pripaid card -->
+    <section class="bannerstep mt-5">
+        <h1 class="title text-light text-center pt-5">Find the best fiber plan for you</h1>
+        <div class="container">
+            <div class="row ">
+                <div class="col-5 col-lg-5 col-xl-4 col-sm-8 m-auto">
+                    <div class="card pt-3 pb-4 mt-5 mt-sm-1" style="width: 22rem;border-radius: 5%;">
+                        <h6 class="card-title text-danger text-center " style="font-weight:bold;">PREPAID</h6>
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-weight:bold;">How many devices are you looking
+                                to connect to your wi-fi?</p>
+                            <p class="body-text text-center">laptops, TVs, mobiles</p>
+                            <div class="     ">
+                                <a href="#" class="btn rounded-pill mb-3"
+                                    style="border:1px solid black;padding-left:20%;padding-right:21%;margin:auto;border:1px solid gray;background-color:lightgray;margin-left:25%;">1-5</a>
+                                <a href="#" class="btn rounded-pill mb-3 "
+                                    style="border:1px solid black;padding-left:20%;padding-right:20%;margin:auto;border:1px solid gray;background-color:lightgray;margin-left:25%;">6-10</a>
+                                <a href="#" class="btn rounded-pill mb-3"
+                                    style="border:1px solid black;padding-left:20%;padding-right:21%;margin:auto;border:1px solid gray;background-color:lightgray;margin-left:25%;">10+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- bussiness cards -->
+    <section>
+        <div class="container-fluid pt-5">
+            <div class="container ">
+                <div class="row ">
+                    <h2 class="title">For your business</h2>
+                    <p class="text">Solutions for medium to large scale enterprises</p>
+                    <a href="" class="text-decoration-none mb-3" style="font-weight:bold;font-size:14px">EXPLORE AIRTEL
+                        BUSINESS<i class="ri-arrow-right-s-line"></i></a>
+                </div>
+            </div>
+    </section>
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-3 col-sm-6 col-md-3" style="border: 1px solid black; border-radius: 10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsti5dGbK1QsZ8kdi2bdDlK0y750xm89DICw&usqp=CAU"
+                    alt="" style="border-radius:5%;width:50px;margin:15px;">
+                <div class="card-body">
+                    <h6 class="card-title " style="font-weight:bold;margin-top:-20px;">Airtel Office Internet
+                    </h6>
+                    <p class="body-text" style="font-size:14px;">Power your business with broadband that comes
+                        with everything you need</p>
+                </div>
+            </div>
+            <div class="col-3 col-sm-6 col-md-3" style="border: 1px solid black; border-radius: 10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsti5dGbK1QsZ8kdi2bdDlK0y750xm89DICw&usqp=CAU"
+                    alt="" style="border-radius:5%;width:50px;margin:15px;">
+                <div class="card-body">
+                    <h6 class="card-title " style="font-weight:bold;margin-top:-20px;">Airtel Office Internet
+                    </h6>
+                    <p class="body-text" style="font-size:14px;">Power your business with broadband that comes
+                        with everything you need</p>
+                </div>
+            </div>
+            <div class="col-3 col-sm-6 col-md-3" style="border: 1px solid black; border-radius: 10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsti5dGbK1QsZ8kdi2bdDlK0y750xm89DICw&usqp=CAU"
+                    alt="" style="border-radius:5%;width:50px;margin:15px;">
+                <div class="card-body">
+                    <h6 class="card-title " style="font-weight:bold;margin-top:-20px;">Airtel Office Internet
+                    </h6>
+                    <p class="body-text" style="font-size:14px;">Power your business with broadband that comes
+                        with everything you need</p>
+                </div>
+            </div>
+            <div class="col-3 col-sm-6 col-md-3" style="border: 1px solid black; border-radius: 10px;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsti5dGbK1QsZ8kdi2bdDlK0y750xm89DICw&usqp=CAU"
+                    alt="" style="border-radius:5%;width:50px;margin:15px;">
+                <div class="card-body">
+                    <h6 class="card-title " style="font-weight:bold;margin-top:-20px;">Airtel Office Internet
+                    </h6>
+                    <p class="body-text" style="font-size:14px;">Power your business with broadband that comes
+                        with everything you need</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+
+    <section class="hide bar foter mt-5">
+        <div class="accordion d-xl-none d-md-none d-sm-block" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button fw-bold" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Quick Access
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled col-12 ">
+                            <li> <a href="#" class="nav-link text-dark fw-bold colorme"></a></li>
+                            <li><a href="#" class="nav-link text-dark">Airtel Black Bill Payment</a></li>
+                            <li><a href="#" class="nav-link text-dark">Prepaid Recharge</a></li>
+                            <li><a href="#" class="nav-link text-dark">Postpaid Bill Payment</a></li>
+                            <li><a href="#" class="nav-link text-dark">DTH Recharges</a></li>
+                            <li><a href="#" class="nav-link text-dark">Broadband Payment</a></li>
+                            <li><a href="#" class="nav-link text-dark">Exciting Offers</a></li>
+                            <li><a href="#" class="nav-link text-dark">Personal Loans</a></li>
+                            <li><a href="#" class="nav-link text-dark">Airtel Payments Bank</a></li>
+                            <li><a href="#" class="nav-link text-dark">Airtel Thanks App</a></li>
+                            <li><a href="#" class="nav-link text-dark">Free Sim Delivery</a></li>
+                            <li><a href="#" class="nav-link text-dark">Telecom Tariff</a></li>
+                            <li><a href="#" class="nav-link text-dark">Rights Issue</a></li>
+                            <li><a href="#" class="nav-link text-dark">QIP & FCCB Issue</a></li>
+                            <li><a href="#" class="nav-link text-dark">Terms & Conditions</a></li>
+                            <li><a href="#" class="nav-link text-dark">Airtel Blogs</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo">
+                        Help At Hand
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled col-12">
+                            <li><a href="#" class="nav-link text-dark">Find a store</a></li>
+                            <li><a href="#" class="nav-link text-dark">Check Coverage</a></li>
+                            <li><a href="#" class="nav-link text-dark">Ownership Transfer</a></li>
+                            <li><a href="#" class="nav-link text-dark">Manage Your account</a></li>
+                            <li><a href="#" class="nav-link text-dark">ISP Near Me</a></li>
+                            <li><a href="#" class="nav-link text-dark">Wynk Music</a></li>
+                            <li><a href="#" class="nav-link text-dark">Broadband FAQs</a></li>
+                            <li><a href="#" class="nav-link text-dark">DTH FAQs</a></li>
+                            <li><a href="#" class="nav-link text-dark">Airtel Xstream FAQs</a></li>
+                            <li><a href="#" class="nav-link text-dark">Postpaid FAQs</a></li>
+                            <li><a href="#" class="nav-link text-dark">Stores near me</a></li>
+                            <li><a href="#" class="nav-link text-dark">DTH Consumer Corner</a></li>
+                            <li><a href="#" class="nav-link text-dark">Do not disturb</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree">
+                        About Airtel
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled col-12">
+                            <li><a href="#" class="nav-link text-dark">Brand</a></li>
+                            <li><a href="#" class="nav-link text-dark">Career</a></li>
+                            <li><a href="#" class="nav-link text-dark">Partner</a></li>
+                            <li><a href="#" class="nav-link text-dark">Business</a></li>
+                            <li><a href="#" class="nav-link text-dark">About Airtel</a></li>
+                            <li><a href="#" class="nav-link text-dark">Press Release</a></li>
+                            <li><a href="#" class="nav-link text-dark">Investor</a></li>
+                            <li><a href="#" class="nav-link text-dark">Investor Support</a></li>
+                            <li><a href="#" class="nav-link text-dark">Telecom Charter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed fw-bold" data-bs-toggle="collapse"
+                        data-bs-target="#collapsefour">
+                        New Connections
+                    </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul class="list-unstyled col-12">
+
+                            <li><a href="#" class="nav-link text-dark">Buy DTH New Connection</a></li>
+                            <li><a href="#" class="nav-link text-dark">Buy Prepaid New Connection</a></li>
+                            <li><a href="#" class="nav-link text-dark">Buy Postpaid New Connection</a></li>
+                            <li><a href="#" class="nav-link text-dark">Buy Fiber New Connection</a></li>
+                            <li><a href="#" class="nav-link text-dark">Buy Airtel Black Plan</a></li>
+                            <li><a href="#" class="nav-link text-dark">Buy Xstream Box</a></li>
+                            <li><a href="#" class="nav-link text-dark">Switch to Airtel</a></li>
+                            <li><a href="#" class="nav-link text-dark">International Roaming</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col-3 col-sm-none d-md-block">
+                    <h6 class="title">Quick Access </h6>
+                    <p class="body1">Airtel Black Bill Payment</p>
+                    <p class="body1"> Prepaid Recharge</p>
+                    <p class="body1">Postpaid Bill Payment</p>
+                    <p class="body1">DTH Recharges</p>
+                    <p class="body1">Broadband Payment</p>
+                    <p class="body1">Exciting Offers</p>
+                    <p class="body1">Personal Loans</p>
+                    <p class="body1">Airtel Payments Bank</p>
+                    <p class="body1">Airtel Thanks App</p>
+                    <p class="body1">Free Sim Delivery</p>
+                    <p class="body1">Telecom Tariff</p>
+                    <p class="body1">Rights Issue</p>
+                    <p class="body1">QIP & FCCB Issue</p>
+                    <p class="body1">Terms & Conditions</p>
+                    <p class="body1">Airtel Blogs</p>
+                </div>
+
+                <div class="col-3 d-md-block">
+                    <h6 class="title">Help At Hand</h6>
+                    <p class="body1">Find a store</p>
+                    <p class="body1"> Check Coverage</p>
+                    <p class="body1">Ownership Transfer</p>
+                    <p class="body1">Manage Your account</p>
+                    <p class="body1">ISP Near Me</p>
+                    <p class="body1">Wynk Music</p>
+                    <p class="body1">Broadband FAQs</p>
+                    <p class="body1">DTH FAQs</p>
+                    <p class="body1">Airtel Xstream FAQs</p>
+                    <p class="body1">Postpaid FAQs</p>
+                    <p class="body1">Stores near me</p>
+                    <p class="body1">DTH Consumer Cornere</p>
+                    <p class="body1">Do not disturb</p>
+
+                </div>
+
+                <div class="col-3 col-md-none">
+                    <h6 class="title">About Airtel</h6>
+                    <p class="body1">Brand</p>
+                    <p class="body1"> Career</p>
+                    <p class="body1">Partner</p>
+                    <p class="body1">Business </p>
+                    <p class="body1">About Airtel</p>
+                    <p class="body1">Press Release</p>
+                    <p class="body1">Investor</p>
+                    <p class="body1">Investor Support</p>
+                    <p class="body1">Telecom Charter</p>
+                </div>
+
+                <div class="col-3 ">
+                    <h6 class="title">New Connections</h6>
+                    <p class="body1">Buy DTH New Connection</p>
+                    <p class="body1"> Buy Prepaid New Connection</p>
+                    <p class="body1">Buy Postpaid New Connection</p>
+                    <p class="body1">Buy Fiber New Connection </p>
+                    <p class="body1">Buy Airtel Black Plan
+                    </p>
+                    <p class="body1">Buy Xstream Box</p>
+                    <p class="body1">Switch to Airtel
+                    </p>
+                    <p class="body1">International Roaming</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
